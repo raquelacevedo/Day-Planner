@@ -20,23 +20,22 @@ $(document).ready(function() {
     $dateHeading.text(now);
     
     // using font awesome icon https://fontawesome.com/license
-    // change description here - none
     const saveIcon = "./images/save-regular.svg"; 
   
-    // Get stored todos from localStorage
+    // Get stored data from localStorage
     // Parsing the JSON string to an object
     let storedPlans = JSON.parse(localStorage.getItem("storedPlans"));
   
     if (test) { console.log(storedPlans); }
   
-    // If plans were retrieved from localStorage, update the plan array to it
+    // If data was retrieved from localStorage, update the planner 
     if (storedPlans !== null) {
       planTextArr = storedPlans;
     } else {
       // this should only occur on first time the app is loaded in the browser
       // helpfully remind user that lunch is important
       planTextArr = new Array(9);
-      planTextArr[4] = "Lunch is important!";
+      planTextArr[4] = "Lunch is important! Don't skip it!";
     }
   
     if (test) { console.log("full array of plned text",planTextArr); }

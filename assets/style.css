@@ -40,14 +40,14 @@ body {
   #navbar-title {
     padding: 0px;
     font-size: 30px;
-    color: linen!important; /* TODO can we do this without the !important */
+    color: linen
     text-align: center;
   }
   
   #navbar-subtitle {
     padding: 2px;
     font-size: 15px;
-    color: linen!important; /* TODO can we do this without the !important */
+    color: linen
     text-align: center;
   }
   
