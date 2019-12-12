@@ -1,6 +1,5 @@
 # Day Planner, 20191211
 
-#### Random-Shelf-Repo, 09/15/18
 
 #### By Raquel Acevedo
 
